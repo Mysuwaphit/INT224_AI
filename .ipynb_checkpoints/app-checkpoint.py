@@ -39,7 +39,8 @@
     "\n",
     "# Optionally, you can add visualizations or more components to the Streamlit app\n",
     "\n",
-    "# if __name__ == \"__main__\":\n",
+    "if __name__ == \"__main__\":\n",
+    "    main()\n",
     "#     st.run()"
    ]
   }
