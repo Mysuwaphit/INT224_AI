@@ -37,11 +37,9 @@
     "    prediction = pipeline.predict(input_data)\n",
     "    st.write(f\"Predicted Target Performance: {prediction[0]:.2f}\")\n",
     "\n",
-    "# Optionally, you can add visualizations or more components to the Streamlit app\n",
-    "\n",
     "if __name__ == \"__main__\":\n",
-    "    main()\n",
-    "#     st.run()"
+    "    # main()\n",
+    "    st.run()"
    ]
   }
  ],
