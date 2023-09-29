@@ -24,8 +24,6 @@
     "previous_scores = st.sidebar.slider(\"Previous Scores\", min_value=0, max_value=100)\n",
     "sleep_hours = st.sidebar.slider(\"Sleep Hours\", min_value=0, max_value=24)\n",
     "\n",
-    "# Add more input fields for other features if needed\n",
-    "\n",
     "# Predict target performance\n",
     "if st.sidebar.button(\"Predict\"):\n",
     "    features = {\n",
